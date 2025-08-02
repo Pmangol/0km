@@ -140,7 +140,7 @@ function handleImageError() {
                                         <h2
                                             class="text-xl font-semibold text-black dark:text-white"
                                         >
-                                            Documentation
+                                            Documentation.
                                         </h2>
 
                                         <p class="mt-4 text-sm/relaxed">
@@ -368,7 +368,7 @@ function handleImageError() {
                                         href="https://laravel.com/docs/telescope"
                                         class="rounded-sm underline hover:text-black focus:outline-none focus-visible:ring-1 focus-visible:ring-[#FF2D20] dark:hover:text-white"
                                         >Telescope</a
-                                    >, and more.
+                                    >, and less.
                                 </p>
                             </div>
                         </div>
