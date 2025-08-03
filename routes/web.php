@@ -24,4 +24,8 @@ Route::middleware('auth')->group(function () {
     Route::delete('/profile', [ProfileController::class, 'destroy'])->name('profile.destroy');
 });
 
+
+use App\Http\Controllers\ContactController;
+Route::post('/contact', [ContactController::class, 'send']);
+
 require __DIR__.'/auth.php';
